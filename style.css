@@ -1,0 +1,284 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the html contents that every page uses */
+header
+{
+    background-image: url(home-page.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navigation
+{
+    float: left;
+    margin-top: 50px;
+}
+
+.navigation li
+{
+    display: inline-block;
+}
+
+.navigation li a 
+{
+    color: whitesmoke;
+    padding: 5px 25px;
+    font-family: "unica one";
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navigation li.activePage a 
+{
+    border: 1px solid rgba(255,0,0,0.815);
+}
+
+.navigation li a:hover
+{
+    border: 1px solid whitesmoke;
+}
+
+h1
+{
+    color: whitesmoke;
+    font-family: "titillium web";
+    margin: 8px;
+}
+
+/************************************* Styling for the Home page ****************************************************************************/
+section
+{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 25px;
+}
+
+section img
+{
+    width: 600px;
+    height: auto;
+}
+
+aside
+{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 800px;
+}
+
+aside img 
+{
+    width: 400px;
+    height: auto;
+}
+
+aside p
+{
+    color: whitesmoke;
+    font-family: "Gelasio", sans-serif;
+    width: 425px;
+    text-align: left;
+
+}
+
+footer
+{
+    position: absolute;
+    margin-top: 625px;
+}
+
+footer p
+{
+    color: whitesmoke;
+    font-family: "Gelasio", sans-serif;
+}
+/************************************* Styling for the contents of the Squad page ***********************************************************/
+.squadTable
+{
+    position: absolute;
+    margin-top:175px;
+}
+
+.tableTitle
+{
+    color: whitesmoke;
+    font-family: "titillium web";
+    margin: 8px;
+    margin-left: 15px;
+}
+
+.roster 
+{
+    color: whitesmoke;
+    font-family: "Gelasio", sans-serif;
+    table-layout: fixed;
+    width: 45%;
+    border-collapse: collapse;
+    border: 3px solid rgba(255,0,0,0.815);
+}
+
+.squadTable th, td 
+{
+    padding: 10px;
+}
+
+.squadTable th
+{
+    background-color: rgba(0, 0, 88, 0.705);
+}
+
+.squadTable tr:nth-child(odd)
+{
+    background-color: rgba(0,0,88,0.705);
+}
+
+.squadTable tr:nth-child(even)
+{
+    background-color: rgba(34, 133, 214, 0.747);
+}
+
+.playerOfTheWeek
+{
+    float:right;
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 800px;
+}
+.playerOfTheWeek img
+{
+    float: right;
+    width: 350px;
+    height: 300px;
+}
+
+.playerOfTheWeek p
+{
+    color: whitesmoke;
+    font-family: "Gelasio", sans-serif;
+    margin-top: 315px;
+    font-size: 16px;
+    width: 300px;
+}
+
+/************************************************* Styling for the schedule page *************************************************************/
+main
+{
+    position: absolute;
+    margin-top: 100px;
+    color: whitesmoke;
+    font-family: "Gelasio", sans-serif;
+}
+
+main table
+{
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid rgba(255,0,0,0.815);
+    width: 75%;    /* make the calendar "responsive", just wanted to play around with it*/
+    height: auto;
+}
+main table th
+{
+    background-color: rgba(0, 4, 63, 0.918);
+}
+
+.mottoPic
+{
+    position: absolute;
+    margin-left: 600px;
+    width: 200px;
+    height: 125px;
+
+}
+
+.homeGame
+{
+    background-color: rgba(0,0,88,0.89);
+}
+
+.awayGame
+{
+    background-color: rgba(34, 133, 214, 0.747);
+}
+
+.homeSquare
+{
+    position: absolute;
+    background-color: rgba(0,0,88,0.89);
+    height: 36px;
+    width: 36px;
+    margin-top: 25px;
+    margin-left: 400px;
+}
+
+.awaySquare 
+{
+    position: absolute;
+    background-color: rgba(34, 133, 214, 0.747);
+    height: 36px;
+    width: 36px;
+    margin-top: 40px;
+    margin-left: 400px;
+}
+
+.homeLabel
+{
+    color: whitesmoke;
+    margin-top: 30px;
+    margin-left: 450px;
+}
+
+.awayLabel 
+{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: 45px;
+    margin-left: 450px;
+}
+
+/************************************************* Styling for the highlights page ***********************************************************/
+.highlightVideo
+{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 85%;
+    height: 50%;
+}
+
+/************************************************* Styling for the News Page *****************************************************************/
+.heading
+{
+    position: absolute;
+    margin-top: 125px;
+}
+
+.heading img
+{
+    width: 450px;
+}
+
+.article
+{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 500px;
+    width: 600px;
+}
+
+.article p
+{
+    color: whitesmoke;
+    font-family: "Gelasio", sans-serif;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+
+
